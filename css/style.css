@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    padding:20px 0;
+    
+}
+
+.section-container{
+    background-color: gray;
+
+}
+
+.section-icon{
+    
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+.single-icon{
+    padding:10px 0;
+    width: calc(( 100% / 5) - 40px );
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.section-icon i {
+
+    
+    
+    font-size:40px;
+}
